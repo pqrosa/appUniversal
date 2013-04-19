@@ -1,0 +1,18 @@
+//
+// Prefix header for all source files of the 'Exercicio04Ago' target in the 'Exercicio04Ago' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+	#import <UIKit/UIKit.h>
+	#import <Foundation/Foundation.h>
+#endif
+
+// Macros para identificarmos o device do usuário (iPad ou iPhone)
+#define isIpadDevice UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad
+#define isIphoneDevice UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone

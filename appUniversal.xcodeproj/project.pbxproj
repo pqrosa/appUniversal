@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B868031720B7DE00233BC6 /* escudo.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B868021720B7DE00233BC6 /* escudo.png */; };
+		01B868061720B8A500233BC6 /* WikipediaTimeViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B868051720B8A500233BC6 /* WikipediaTimeViewController~ipad.xib */; };
+		01B868081720BE6C00233BC6 /* GaleriaDoTimeViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B868071720BE6C00233BC6 /* GaleriaDoTimeViewController~ipad.xib */; };
+		BFEF737515D683450081148B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEF737415D683450081148B /* UIKit.framework */; };
+		BFEF737715D683450081148B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEF737615D683450081148B /* Foundation.framework */; };
+		BFEF737915D683450081148B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEF737815D683450081148B /* CoreGraphics.framework */; };
+		BFEF737F15D683450081148B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFEF737D15D683450081148B /* InfoPlist.strings */; };
+		BFEF738115D683450081148B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEF738015D683450081148B /* main.m */; };
+		BFEF738515D683450081148B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEF738415D683450081148B /* AppDelegate.m */; };
+		BFEF738F15D683A60081148B /* times.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFEF738D15D683A60081148B /* times.plist */; };
+		BFEF739215D684020081148B /* Time.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEF739115D684020081148B /* Time.m */; };
+		BFEF739515D689FF0081148B /* ListaDeTimesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEF739415D689FF0081148B /* ListaDeTimesViewController.m */; };
+		BFEF739A15D68DD80081148B /* WikipediaTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEF739815D68DD80081148B /* WikipediaTimeViewController.m */; };
+		BFEF739B15D68DD80081148B /* WikipediaTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFEF739915D68DD80081148B /* WikipediaTimeViewController.xib */; };
+		BFEF73C615D694000081148B /* botafogo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF739D15D694000081148B /* botafogo1.jpg */; };
+		BFEF73C715D694000081148B /* botafogo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF739E15D694000081148B /* botafogo2.jpg */; };
+		BFEF73C815D694000081148B /* botafogo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF739F15D694000081148B /* botafogo3.jpg */; };
+		BFEF73C915D694000081148B /* botafogo4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73A015D694000081148B /* botafogo4.jpg */; };
+		BFEF73CA15D694000081148B /* corinthians1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73A115D694000081148B /* corinthians1.jpg */; };
+		BFEF73CB15D694000081148B /* corinthians2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73A215D694000081148B /* corinthians2.jpg */; };
+		BFEF73CC15D694000081148B /* corinthians3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73A315D694000081148B /* corinthians3.jpg */; };
+		BFEF73CD15D694000081148B /* corinthians4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73A415D694000081148B /* corinthians4.jpg */; };
+		BFEF73CE15D694000081148B /* cruzeiro1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73A515D694000081148B /* cruzeiro1.jpg */; };
+		BFEF73CF15D694000081148B /* cruzeiro2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73A615D694000081148B /* cruzeiro2.jpg */; };
+		BFEF73D015D694000081148B /* cruzeiro3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73A715D694000081148B /* cruzeiro3.jpg */; };
+		BFEF73D115D694000081148B /* cruzeiro4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73A815D694000081148B /* cruzeiro4.jpg */; };
+		BFEF73D215D694000081148B /* cruzeiro5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73A915D694000081148B /* cruzeiro5.jpg */; };
+		BFEF73D315D694000081148B /* flamengo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73AA15D694000081148B /* flamengo1.jpg */; };
+		BFEF73D415D694000081148B /* flamengo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73AB15D694000081148B /* flamengo2.jpg */; };
+		BFEF73D515D694000081148B /* flamengo3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73AC15D694000081148B /* flamengo3.jpg */; };
+		BFEF73D615D694000081148B /* flamengo4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73AD15D694000081148B /* flamengo4.jpg */; };
+		BFEF73D715D694000081148B /* fluminense1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73AE15D694000081148B /* fluminense1.jpg */; };
+		BFEF73D815D694000081148B /* fluminense2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73AF15D694000081148B /* fluminense2.jpg */; };
+		BFEF73D915D694000081148B /* fluminense3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73B015D694000081148B /* fluminense3.jpg */; };
+		BFEF73DA15D694000081148B /* fluminense4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73B115D694000081148B /* fluminense4.jpg */; };
+		BFEF73DB15D694000081148B /* gremio1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73B215D694000081148B /* gremio1.jpg */; };
+		BFEF73DC15D694000081148B /* gremio2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73B315D694000081148B /* gremio2.jpg */; };
+		BFEF73DD15D694000081148B /* gremio3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73B415D694000081148B /* gremio3.jpg */; };
+		BFEF73DE15D694000081148B /* gremio4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73B515D694000081148B /* gremio4.jpg */; };
+		BFEF73DF15D694000081148B /* gremio5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73B615D694000081148B /* gremio5.jpg */; };
+		BFEF73E115D694000081148B /* internacional1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73B815D694000081148B /* internacional1.jpg */; };
+		BFEF73E215D694000081148B /* internacional2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73B915D694000081148B /* internacional2.jpg */; };
+		BFEF73E315D694000081148B /* internacional3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73BA15D694000081148B /* internacional3.jpg */; };
+		BFEF73E415D694000081148B /* internacional4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73BB15D694000081148B /* internacional4.jpg */; };
+		BFEF73E515D694000081148B /* palmeiras1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73BC15D694000081148B /* palmeiras1.jpg */; };
+		BFEF73E615D694000081148B /* palmeiras2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73BD15D694000081148B /* palmeiras2.jpg */; };
+		BFEF73E715D694000081148B /* palmeiras3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73BE15D694000081148B /* palmeiras3.jpg */; };
+		BFEF73E815D694000081148B /* santos1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73BF15D694000081148B /* santos1.jpg */; };
+		BFEF73E915D694000081148B /* santos2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73C015D694000081148B /* santos2.jpg */; };
+		BFEF73EA15D694000081148B /* santos3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73C115D694000081148B /* santos3.jpg */; };
+		BFEF73EB15D694000081148B /* vasco1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73C215D694000081148B /* vasco1.jpg */; };
+		BFEF73EC15D694000081148B /* vasco2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73C315D694000081148B /* vasco2.jpg */; };
+		BFEF73ED15D694000081148B /* vasco3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73C415D694000081148B /* vasco3.jpg */; };
+		BFEF73EE15D694000081148B /* vasco4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73C515D694000081148B /* vasco4.jpg */; };
+		BFEF73F215D6944C0081148B /* GaleriaDoTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEF73F015D6944C0081148B /* GaleriaDoTimeViewController.m */; };
+		BFEF73F315D6944C0081148B /* GaleriaDoTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFEF73F115D6944C0081148B /* GaleriaDoTimeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01B868021720B7DE00233BC6 /* escudo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = escudo.png; sourceTree = "<group>"; };
+		01B868051720B8A500233BC6 /* WikipediaTimeViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "WikipediaTimeViewController~ipad.xib"; sourceTree = "<group>"; };
+		01B868071720BE6C00233BC6 /* GaleriaDoTimeViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "GaleriaDoTimeViewController~ipad.xib"; sourceTree = "<group>"; };
+		BFEF737015D683450081148B /* appUniversal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appUniversal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFEF737415D683450081148B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFEF737615D683450081148B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFEF737815D683450081148B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFEF737C15D683450081148B /* appUniversal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "appUniversal-Info.plist"; sourceTree = "<group>"; };
+		BFEF737E15D683450081148B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFEF738015D683450081148B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFEF738215D683450081148B /* appUniversal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "appUniversal-Prefix.pch"; sourceTree = "<group>"; };
+		BFEF738315D683450081148B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFEF738415D683450081148B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFEF738D15D683A60081148B /* times.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = times.plist; sourceTree = "<group>"; };
+		BFEF739015D684020081148B /* Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Time.h; sourceTree = "<group>"; };
+		BFEF739115D684020081148B /* Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Time.m; sourceTree = "<group>"; };
+		BFEF739315D689FE0081148B /* ListaDeTimesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListaDeTimesViewController.h; sourceTree = "<group>"; };
+		BFEF739415D689FF0081148B /* ListaDeTimesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListaDeTimesViewController.m; sourceTree = "<group>"; };
+		BFEF739715D68DD80081148B /* WikipediaTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikipediaTimeViewController.h; sourceTree = "<group>"; };
+		BFEF739815D68DD80081148B /* WikipediaTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikipediaTimeViewController.m; sourceTree = "<group>"; };
+		BFEF739915D68DD80081148B /* WikipediaTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WikipediaTimeViewController.xib; sourceTree = "<group>"; };
+		BFEF739D15D694000081148B /* botafogo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = botafogo1.jpg; sourceTree = "<group>"; };
+		BFEF739E15D694000081148B /* botafogo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = botafogo2.jpg; sourceTree = "<group>"; };
+		BFEF739F15D694000081148B /* botafogo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = botafogo3.jpg; sourceTree = "<group>"; };
+		BFEF73A015D694000081148B /* botafogo4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = botafogo4.jpg; sourceTree = "<group>"; };
+		BFEF73A115D694000081148B /* corinthians1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = corinthians1.jpg; sourceTree = "<group>"; };
+		BFEF73A215D694000081148B /* corinthians2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = corinthians2.jpg; sourceTree = "<group>"; };
+		BFEF73A315D694000081148B /* corinthians3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = corinthians3.jpg; sourceTree = "<group>"; };
+		BFEF73A415D694000081148B /* corinthians4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = corinthians4.jpg; sourceTree = "<group>"; };
+		BFEF73A515D694000081148B /* cruzeiro1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cruzeiro1.jpg; sourceTree = "<group>"; };
+		BFEF73A615D694000081148B /* cruzeiro2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cruzeiro2.jpg; sourceTree = "<group>"; };
+		BFEF73A715D694000081148B /* cruzeiro3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cruzeiro3.jpg; sourceTree = "<group>"; };
+		BFEF73A815D694000081148B /* cruzeiro4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cruzeiro4.jpg; sourceTree = "<group>"; };
+		BFEF73A915D694000081148B /* cruzeiro5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cruzeiro5.jpg; sourceTree = "<group>"; };
+		BFEF73AA15D694000081148B /* flamengo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flamengo1.jpg; sourceTree = "<group>"; };
+		BFEF73AB15D694000081148B /* flamengo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flamengo2.jpg; sourceTree = "<group>"; };
+		BFEF73AC15D694000081148B /* flamengo3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flamengo3.jpg; sourceTree = "<group>"; };
+		BFEF73AD15D694000081148B /* flamengo4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flamengo4.jpg; sourceTree = "<group>"; };
+		BFEF73AE15D694000081148B /* fluminense1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fluminense1.jpg; sourceTree = "<group>"; };
+		BFEF73AF15D694000081148B /* fluminense2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fluminense2.jpg; sourceTree = "<group>"; };
+		BFEF73B015D694000081148B /* fluminense3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fluminense3.jpg; sourceTree = "<group>"; };
+		BFEF73B115D694000081148B /* fluminense4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fluminense4.jpg; sourceTree = "<group>"; };
+		BFEF73B215D694000081148B /* gremio1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gremio1.jpg; sourceTree = "<group>"; };
+		BFEF73B315D694000081148B /* gremio2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gremio2.jpg; sourceTree = "<group>"; };
+		BFEF73B415D694000081148B /* gremio3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gremio3.jpg; sourceTree = "<group>"; };
+		BFEF73B515D694000081148B /* gremio4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gremio4.jpg; sourceTree = "<group>"; };
+		BFEF73B615D694000081148B /* gremio5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gremio5.jpg; sourceTree = "<group>"; };
+		BFEF73B815D694000081148B /* internacional1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = internacional1.jpg; sourceTree = "<group>"; };
+		BFEF73B915D694000081148B /* internacional2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = internacional2.jpg; sourceTree = "<group>"; };
+		BFEF73BA15D694000081148B /* internacional3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = internacional3.jpg; sourceTree = "<group>"; };
+		BFEF73BB15D694000081148B /* internacional4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = internacional4.jpg; sourceTree = "<group>"; };
+		BFEF73BC15D694000081148B /* palmeiras1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = palmeiras1.jpg; sourceTree = "<group>"; };
+		BFEF73BD15D694000081148B /* palmeiras2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = palmeiras2.jpg; sourceTree = "<group>"; };
+		BFEF73BE15D694000081148B /* palmeiras3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = palmeiras3.jpg; sourceTree = "<group>"; };
+		BFEF73BF15D694000081148B /* santos1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santos1.jpg; sourceTree = "<group>"; };
+		BFEF73C015D694000081148B /* santos2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santos2.jpg; sourceTree = "<group>"; };
+		BFEF73C115D694000081148B /* santos3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santos3.jpg; sourceTree = "<group>"; };
+		BFEF73C215D694000081148B /* vasco1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vasco1.jpg; sourceTree = "<group>"; };
+		BFEF73C315D694000081148B /* vasco2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vasco2.jpg; sourceTree = "<group>"; };
+		BFEF73C415D694000081148B /* vasco3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vasco3.jpg; sourceTree = "<group>"; };
+		BFEF73C515D694000081148B /* vasco4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vasco4.jpg; sourceTree = "<group>"; };
+		BFEF73EF15D6944C0081148B /* GaleriaDoTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaleriaDoTimeViewController.h; sourceTree = "<group>"; };
+		BFEF73F015D6944C0081148B /* GaleriaDoTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaleriaDoTimeViewController.m; sourceTree = "<group>"; };
+		BFEF73F115D6944C0081148B /* GaleriaDoTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GaleriaDoTimeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFEF736D15D683450081148B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEF737515D683450081148B /* UIKit.framework in Frameworks */,
+				BFEF737715D683450081148B /* Foundation.framework in Frameworks */,
+				BFEF737915D683450081148B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFEF736515D683450081148B = {
+			isa = PBXGroup;
+			children = (
+				BFEF737A15D683450081148B /* Exercicio04Ago */,
+				BFEF738B15D683A60081148B /* resources */,
+				BFEF737315D683450081148B /* Frameworks */,
+				BFEF737115D683450081148B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFEF737115D683450081148B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFEF737015D683450081148B /* appUniversal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFEF737315D683450081148B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFEF737415D683450081148B /* UIKit.framework */,
+				BFEF737615D683450081148B /* Foundation.framework */,
+				BFEF737815D683450081148B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFEF737A15D683450081148B /* Exercicio04Ago */ = {
+			isa = PBXGroup;
+			children = (
+				BFEF738315D683450081148B /* AppDelegate.h */,
+				BFEF738415D683450081148B /* AppDelegate.m */,
+				BFEF737B15D683450081148B /* Supporting Files */,
+				BFEF739015D684020081148B /* Time.h */,
+				BFEF739115D684020081148B /* Time.m */,
+				BFEF739615D68D520081148B /* Controllers */,
+			);
+			path = Exercicio04Ago;
+			sourceTree = "<group>";
+		};
+		BFEF737B15D683450081148B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFEF737C15D683450081148B /* appUniversal-Info.plist */,
+				BFEF737D15D683450081148B /* InfoPlist.strings */,
+				BFEF738015D683450081148B /* main.m */,
+				BFEF738215D683450081148B /* appUniversal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFEF738B15D683A60081148B /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				01B868021720B7DE00233BC6 /* escudo.png */,
+				BFEF739C15D694000081148B /* times */,
+				BFEF738D15D683A60081148B /* times.plist */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		BFEF739615D68D520081148B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFEF739315D689FE0081148B /* ListaDeTimesViewController.h */,
+				BFEF739415D689FF0081148B /* ListaDeTimesViewController.m */,
+				BFEF739715D68DD80081148B /* WikipediaTimeViewController.h */,
+				BFEF739815D68DD80081148B /* WikipediaTimeViewController.m */,
+				BFEF739915D68DD80081148B /* WikipediaTimeViewController.xib */,
+				01B868051720B8A500233BC6 /* WikipediaTimeViewController~ipad.xib */,
+				BFEF73EF15D6944C0081148B /* GaleriaDoTimeViewController.h */,
+				BFEF73F015D6944C0081148B /* GaleriaDoTimeViewController.m */,
+				BFEF73F115D6944C0081148B /* GaleriaDoTimeViewController.xib */,
+				01B868071720BE6C00233BC6 /* GaleriaDoTimeViewController~ipad.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BFEF739C15D694000081148B /* times */ = {
+			isa = PBXGroup;
+			children = (
+				BFEF739D15D694000081148B /* botafogo1.jpg */,
+				BFEF739E15D694000081148B /* botafogo2.jpg */,
+				BFEF739F15D694000081148B /* botafogo3.jpg */,
+				BFEF73A015D694000081148B /* botafogo4.jpg */,
+				BFEF73A115D694000081148B /* corinthians1.jpg */,
+				BFEF73A215D694000081148B /* corinthians2.jpg */,
+				BFEF73A315D694000081148B /* corinthians3.jpg */,
+				BFEF73A415D694000081148B /* corinthians4.jpg */,
+				BFEF73A515D694000081148B /* cruzeiro1.jpg */,
+				BFEF73A615D694000081148B /* cruzeiro2.jpg */,
+				BFEF73A715D694000081148B /* cruzeiro3.jpg */,
+				BFEF73A815D694000081148B /* cruzeiro4.jpg */,
+				BFEF73A915D694000081148B /* cruzeiro5.jpg */,
+				BFEF73AA15D694000081148B /* flamengo1.jpg */,
+				BFEF73AB15D694000081148B /* flamengo2.jpg */,
+				BFEF73AC15D694000081148B /* flamengo3.jpg */,
+				BFEF73AD15D694000081148B /* flamengo4.jpg */,
+				BFEF73AE15D694000081148B /* fluminense1.jpg */,
+				BFEF73AF15D694000081148B /* fluminense2.jpg */,
+				BFEF73B015D694000081148B /* fluminense3.jpg */,
+				BFEF73B115D694000081148B /* fluminense4.jpg */,
+				BFEF73B215D694000081148B /* gremio1.jpg */,
+				BFEF73B315D694000081148B /* gremio2.jpg */,
+				BFEF73B415D694000081148B /* gremio3.jpg */,
+				BFEF73B515D694000081148B /* gremio4.jpg */,
+				BFEF73B615D694000081148B /* gremio5.jpg */,
+				BFEF73B815D694000081148B /* internacional1.jpg */,
+				BFEF73B915D694000081148B /* internacional2.jpg */,
+				BFEF73BA15D694000081148B /* internacional3.jpg */,
+				BFEF73BB15D694000081148B /* internacional4.jpg */,
+				BFEF73BC15D694000081148B /* palmeiras1.jpg */,
+				BFEF73BD15D694000081148B /* palmeiras2.jpg */,
+				BFEF73BE15D694000081148B /* palmeiras3.jpg */,
+				BFEF73BF15D694000081148B /* santos1.jpg */,
+				BFEF73C015D694000081148B /* santos2.jpg */,
+				BFEF73C115D694000081148B /* santos3.jpg */,
+				BFEF73C215D694000081148B /* vasco1.jpg */,
+				BFEF73C315D694000081148B /* vasco2.jpg */,
+				BFEF73C415D694000081148B /* vasco3.jpg */,
+				BFEF73C515D694000081148B /* vasco4.jpg */,
+			);
+			path = times;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFEF736F15D683450081148B /* appUniversal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFEF738815D683450081148B /* Build configuration list for PBXNativeTarget "appUniversal" */;
+			buildPhases = (
+				BFEF736C15D683450081148B /* Sources */,
+				BFEF736D15D683450081148B /* Frameworks */,
+				BFEF736E15D683450081148B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = appUniversal;
+			productName = Exercicio04Ago;
+			productReference = BFEF737015D683450081148B /* appUniversal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFEF736715D683450081148B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Afonso Junior";
+			};
+			buildConfigurationList = BFEF736A15D683450081148B /* Build configuration list for PBXProject "appUniversal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFEF736515D683450081148B;
+			productRefGroup = BFEF737115D683450081148B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFEF736F15D683450081148B /* appUniversal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFEF736E15D683450081148B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEF737F15D683450081148B /* InfoPlist.strings in Resources */,
+				BFEF738F15D683A60081148B /* times.plist in Resources */,
+				BFEF739B15D68DD80081148B /* WikipediaTimeViewController.xib in Resources */,
+				BFEF73C615D694000081148B /* botafogo1.jpg in Resources */,
+				BFEF73C715D694000081148B /* botafogo2.jpg in Resources */,
+				BFEF73C815D694000081148B /* botafogo3.jpg in Resources */,
+				BFEF73C915D694000081148B /* botafogo4.jpg in Resources */,
+				BFEF73CA15D694000081148B /* corinthians1.jpg in Resources */,
+				BFEF73CB15D694000081148B /* corinthians2.jpg in Resources */,
+				BFEF73CC15D694000081148B /* corinthians3.jpg in Resources */,
+				BFEF73CD15D694000081148B /* corinthians4.jpg in Resources */,
+				BFEF73CE15D694000081148B /* cruzeiro1.jpg in Resources */,
+				BFEF73CF15D694000081148B /* cruzeiro2.jpg in Resources */,
+				BFEF73D015D694000081148B /* cruzeiro3.jpg in Resources */,
+				BFEF73D115D694000081148B /* cruzeiro4.jpg in Resources */,
+				BFEF73D215D694000081148B /* cruzeiro5.jpg in Resources */,
+				BFEF73D315D694000081148B /* flamengo1.jpg in Resources */,
+				BFEF73D415D694000081148B /* flamengo2.jpg in Resources */,
+				BFEF73D515D694000081148B /* flamengo3.jpg in Resources */,
+				BFEF73D615D694000081148B /* flamengo4.jpg in Resources */,
+				BFEF73D715D694000081148B /* fluminense1.jpg in Resources */,
+				BFEF73D815D694000081148B /* fluminense2.jpg in Resources */,
+				BFEF73D915D694000081148B /* fluminense3.jpg in Resources */,
+				BFEF73DA15D694000081148B /* fluminense4.jpg in Resources */,
+				BFEF73DB15D694000081148B /* gremio1.jpg in Resources */,
+				BFEF73DC15D694000081148B /* gremio2.jpg in Resources */,
+				BFEF73DD15D694000081148B /* gremio3.jpg in Resources */,
+				BFEF73DE15D694000081148B /* gremio4.jpg in Resources */,
+				BFEF73DF15D694000081148B /* gremio5.jpg in Resources */,
+				BFEF73E115D694000081148B /* internacional1.jpg in Resources */,
+				BFEF73E215D694000081148B /* internacional2.jpg in Resources */,
+				BFEF73E315D694000081148B /* internacional3.jpg in Resources */,
+				BFEF73E415D694000081148B /* internacional4.jpg in Resources */,
+				BFEF73E515D694000081148B /* palmeiras1.jpg in Resources */,
+				BFEF73E615D694000081148B /* palmeiras2.jpg in Resources */,
+				BFEF73E715D694000081148B /* palmeiras3.jpg in Resources */,
+				BFEF73E815D694000081148B /* santos1.jpg in Resources */,
+				BFEF73E915D694000081148B /* santos2.jpg in Resources */,
+				BFEF73EA15D694000081148B /* santos3.jpg in Resources */,
+				BFEF73EB15D694000081148B /* vasco1.jpg in Resources */,
+				BFEF73EC15D694000081148B /* vasco2.jpg in Resources */,
+				BFEF73ED15D694000081148B /* vasco3.jpg in Resources */,
+				BFEF73EE15D694000081148B /* vasco4.jpg in Resources */,
+				BFEF73F315D6944C0081148B /* GaleriaDoTimeViewController.xib in Resources */,
+				01B868031720B7DE00233BC6 /* escudo.png in Resources */,
+				01B868061720B8A500233BC6 /* WikipediaTimeViewController~ipad.xib in Resources */,
+				01B868081720BE6C00233BC6 /* GaleriaDoTimeViewController~ipad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFEF736C15D683450081148B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEF738115D683450081148B /* main.m in Sources */,
+				BFEF738515D683450081148B /* AppDelegate.m in Sources */,
+				BFEF739215D684020081148B /* Time.m in Sources */,
+				BFEF739515D689FF0081148B /* ListaDeTimesViewController.m in Sources */,
+				BFEF739A15D68DD80081148B /* WikipediaTimeViewController.m in Sources */,
+				BFEF73F215D6944C0081148B /* GaleriaDoTimeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFEF737D15D683450081148B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFEF737E15D683450081148B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFEF738615D683450081148B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFEF738715D683450081148B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFEF738915D683450081148B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercicio04Ago/appUniversal-Prefix.pch";
+				INFOPLIST_FILE = "Exercicio04Ago/appUniversal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = appUniversal;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFEF738A15D683450081148B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercicio04Ago/appUniversal-Prefix.pch";
+				INFOPLIST_FILE = "Exercicio04Ago/appUniversal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = appUniversal;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFEF736A15D683450081148B /* Build configuration list for PBXProject "appUniversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFEF738615D683450081148B /* Debug */,
+				BFEF738715D683450081148B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFEF738815D683450081148B /* Build configuration list for PBXNativeTarget "appUniversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFEF738915D683450081148B /* Debug */,
+				BFEF738A15D683450081148B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFEF736715D683450081148B /* Project object */;
+}
