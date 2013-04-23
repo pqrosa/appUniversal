@@ -10,6 +10,7 @@
 		01B868031720B7DE00233BC6 /* escudo.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B868021720B7DE00233BC6 /* escudo.png */; };
 		01B868061720B8A500233BC6 /* WikipediaTimeViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B868051720B8A500233BC6 /* WikipediaTimeViewController~ipad.xib */; };
 		01B868081720BE6C00233BC6 /* GaleriaDoTimeViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B868071720BE6C00233BC6 /* GaleriaDoTimeViewController~ipad.xib */; };
+		37AE8E4817264F4400B13934 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 37AE8E4717264F4400B13934 /* README.md */; };
 		BFEF737515D683450081148B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEF737415D683450081148B /* UIKit.framework */; };
 		BFEF737715D683450081148B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEF737615D683450081148B /* Foundation.framework */; };
 		BFEF737915D683450081148B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFEF737815D683450081148B /* CoreGraphics.framework */; };
@@ -69,6 +70,7 @@
 		01B868021720B7DE00233BC6 /* escudo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = escudo.png; sourceTree = "<group>"; };
 		01B868051720B8A500233BC6 /* WikipediaTimeViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "WikipediaTimeViewController~ipad.xib"; sourceTree = "<group>"; };
 		01B868071720BE6C00233BC6 /* GaleriaDoTimeViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "GaleriaDoTimeViewController~ipad.xib"; sourceTree = "<group>"; };
+		37AE8E4717264F4400B13934 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		BFEF737015D683450081148B /* appUniversal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appUniversal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFEF737415D683450081148B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BFEF737615D683450081148B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -194,6 +196,7 @@
 				BFEF737D15D683450081148B /* InfoPlist.strings */,
 				BFEF738015D683450081148B /* main.m */,
 				BFEF738215D683450081148B /* appUniversal-Prefix.pch */,
+				37AE8E4717264F4400B13934 /* README.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				01B868031720B7DE00233BC6 /* escudo.png in Resources */,
 				01B868061720B8A500233BC6 /* WikipediaTimeViewController~ipad.xib in Resources */,
 				01B868081720BE6C00233BC6 /* GaleriaDoTimeViewController~ipad.xib in Resources */,
+				37AE8E4817264F4400B13934 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
